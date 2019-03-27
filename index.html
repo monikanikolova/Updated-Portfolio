@@ -8,21 +8,131 @@
     <title>Monika Nikolova</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet/css" href="assets/css/reset.css">
-    <link rel="stylesheet/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Gruppo|Fugaz+One|Spinnaker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="/assets/javascript/app.js"></script>
+    <div class="navbar"></div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>I am Monika Nikolova</h1>
+            <p>And I'm a Web Developer</p>
+        </div>
+    </div>
+    <div class="container-fluid" id="first-cont">
+        <div class="row">
+            <div class="col-sm-4" style="padding-left: 0px">
+                <img src="assets/images/prof pic.jpg" id="profile-img" alt="Profile Picture">
+            </div>
+            <div class="col-sm-8" id="about-cont">
+                <h1 id="about">ABOUT ME</h1>
+                <p id="about-text">Hello, my name is Monika! Originally from Bulgaria, but have been a Charlotte girl
+                    for the last 3
+                    years. I was raised in a family of artists, so I decided to follow my parents steps and graduated
+                    Graphic Design in 2009. Right after, I felt that I need some extra challenge and went to law school.
+                    That was a fun ride! Moved to US in 2012 and have been stay-at-home mom for the last 3 years.
+                    <br>
+                    I like to cook, I love being outdoors and driving long distance. Any kind of art truly excites me,
+                    and so does problem-solving. Coding combines both worlds for me makes me totally in love with
+                    writing code! Full stack developer in progress.</p>
+                <button id="btn">Download Resume</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="second-cont">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1 id="contact">CONTACT</h1>
+                <h2 id="email">monika.nikolova@yahoo.com</h2>
+                <h2 id="phone">702 409 3677</h2>
+                <a href="https://www.linkedin.com/in/monika-nikolova-469bb3b7/"><img id="logos"
+                        src="assets/images/linkedin-icon.png" alt="Linkedin Icon" width="50px" height="50px"></a>
+                <a href="https://github.com/monikanikolova"><img class="logos" src="assets/images/github-icon.png"
+                        alt="Github Icon" width="50px" height="50px"></a>
+            </div>
+            <div class="col-sm-8">
+                <img src="assets/images/keyboard.jpg" id="keyboard" alt="Keyboard" height="400px" width="auto">
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="container-fluid" id="third-cont">
+        <div class="row">
+            <h1 id="portfolio">PORTFOLIO</h1>
+        </div>
+        <div class="row" id="project-box">
+            <div class="col-lg-6">
+                <h1 class="project-title">JUST EAT</h1>
+                <a href="https://monikanikolova.github.io/Just-Eat-It/"><img src="assets/images/io-icon.png"
+                        alt="Github Pages Icon" width="50px;" height="50px;"></a>
+                <a href="https://github.com/monikanikolova/Just-Eat-It"></a><img src="assets/images/code-icon.png"
+                    alt="Code Icon" width="50px;" height="50px;"></a>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="project-title">GIPHY API</h1>
+                <a href="https://monikanikolova.github.io/Giphy-API/"><img src="assets/images/io-icon.png"
+                        alt="Github Pages Icon" width="50px;" height="50px;"></a>
+                <a href="https://github.com/monikanikolova/Giphy-API"><img src="assets/images/code-icon.png"
+                        alt="Code Icon" width="50px;" height="50px;"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="padding-left: 0px;">
+                <video src="assets/images/recipe-search.mov" width="auto" height="380px" controls></video>
+            </div>
+            <div class="col-sm-6" style="padding-left: 0px;">
+                <video src="assets/images/GIPHY-vid.mov" width="auto" height="380px" controls>
+                    </a>
+            </div>
+        </div>
+        <div class="row" id="project-box">
+            <div class="col-lg-6">
+                <h1 class="project-title">DIAMONDS</h1>
+                <a href="https://monikanikolova.github.io/unit-4-game/"><img src="assets/images/io-icon.png"
+                        alt="Github Pages Icon" width="50px;" height="50px;"></a>
+                <a href="https://github.com/monikanikolova/unit-4-game"><img src="assets/images/code-icon.png"
+                        alt="Code Icon" width="50px;" height="50px;"></a>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="project-title">TRIVIA GAME</h1>
+                <a href="https://monikanikolova.github.io/TriviaGame/"><img src="assets/images/io-icon.png"
+                        alt="Github Pages Icon" width="50px;" height="50px;"></a>
+                <a href="https://github.com/monikanikolova/TriviaGame"><img src="assets/images/code-icon.png"
+                        alt="Code Icon" width="50px;" height="50px;"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" style="padding-left: 0px;">
+                <a href="https://github.com/monikanikolova/unit-4-game"> <video
+                        src="assets/images/diamond-collector.mov" width="auto" height="380px" controls></video>
+                </a>
+            </div>
+            <div class="col-sm-6" style="padding-left: 0px;">
+
+                <a href="https://github.com/monikanikolova/TriviaGame"><video src="assets/images/trivia-game.mov"
+                        width="auto" height="380px" controls></video></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="footer">
+                <span id="copyright">Copyright©</span>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
